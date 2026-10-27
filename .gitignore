@@ -1,0 +1,22 @@
+# Desktop build
+/build/
+/build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+*.user
+*.user.*
+
+# Web build and dependencies
+web/node_modules/
+web/dist/
+web/coverage/
+web/test-results/
+web/playwright-report/
+web/.vite/
+
+# Local files
+.env
+.env.*
+*.log
+.DS_Store
